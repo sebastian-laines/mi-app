@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>mi-app</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="logo-wrapper">
+      <img src="assets/logo.svg" alt="Logotipo de mi-app" class="logo" />
+      <p class="site-title">mi-app</p>
+    </div>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-list">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#caracteristicas">Características</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+      Alternar tema
+    </button>
+  </header>
+  <main id="inicio" class="site-main">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Bienvenido a mi-app</h1>
+      <p>Un punto de partida accesible y adaptable para tu próximo proyecto web.</p>
+      <a class="cta-button" href="#caracteristicas">Descubrir más</a>
+    </section>
+    <section id="caracteristicas" class="features" aria-label="Características principales">
+      <article class="card" role="article">
+        <h2>Diseño responsivo</h2>
+        <p>La estructura se adapta a cualquier dispositivo gracias a un layout flexible.</p>
+      </article>
+      <article class="card" role="article">
+        <h2>Componentes accesibles</h2>
+        <p>Incluye patrones con etiquetas y roles adecuados para mejorar la experiencia.</p>
+      </article>
+      <article class="card" role="article">
+        <h2>Fácil de personalizar</h2>
+        <p>Actualiza colores, tipografías y más con variables CSS y buenas prácticas.</p>
+      </article>
+    </section>
+    <section id="contacto" class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contáctanos</h2>
+      <form class="contact-form" aria-describedby="contact-help">
+        <p id="contact-help">Los campos marcados con * son obligatorios.</p>
+        <div class="form-field">
+          <label for="name">Nombre *</label>
+          <input id="name" name="name" type="text" required autocomplete="name" />
+        </div>
+        <div class="form-field">
+          <label for="email">Correo electrónico *</label>
+          <input id="email" name="email" type="email" required autocomplete="email" />
+        </div>
+        <div class="form-field">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="cta-button">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <p>&copy; <span id="year"></span> mi-app. Todos los derechos reservados.</p>
+  </footer>
+  <script src="main.js" defer></script>
+</body>
+</html>
