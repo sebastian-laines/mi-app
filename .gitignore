@@ -1,0 +1,4 @@
+﻿# logs y archivos del SO
+*.log
+.DS_Store
+Thumbs.db
