@@ -1,4 +1,7 @@
-﻿# logs y archivos del SO
-*.log
+# Archivos de sistema
 .DS_Store
 Thumbs.db
+
+# Salidas temporales de servidores locales
+.cache/
+*.log

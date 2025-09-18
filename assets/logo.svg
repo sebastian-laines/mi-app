@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 120 120"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Logotipo de mi-app</title>
+  <desc id="desc">Figura abstracta con iniciales m y a</desc>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="url(#gradient)" />
+  <path
+    d="M34 78V42a10 10 0 0 1 20 0v36"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="10"
+    stroke-linecap="round"
+  />
+  <path
+    d="M66 78l10-18 10 18 10-18"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
